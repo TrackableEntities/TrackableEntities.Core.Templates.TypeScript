@@ -1,6 +1,6 @@
 # Trackable Entities for EF Core TypeScript Handlebars Templates
 
-Handlebars templates for EF Core scaffolding to generate client-side TypeScript trackable entities. See [TrackableEntities.Core](https://github.com/TrackableEntities/TrackableEntities.Core) and [EntityFrameworkCore.Scaffolding.Handlebars](https://github.com/TrackableEntities/EntityFrameworkCore.Scaffolding.Handlebars).
+Handlebars templates for EF Core scaffolding to generate client-side TypeScript trackable entities. See [trackable-entities-js](https://github.com/TrackableEntities/trackable-entities-js) and [EntityFrameworkCore.Scaffolding.Handlebars](https://github.com/TrackableEntities/EntityFrameworkCore.Scaffolding.Handlebars).
 
 ## Usage
 
@@ -20,7 +20,6 @@ Handlebars templates for EF Core scaffolding to generate client-side TypeScript 
 4. Add the following NuGet packages to the project.
    - Microsoft.EntityFrameworkCore.Design
    - Microsoft.EntityFrameworkCore.SqlServer
-   - TrackableEntities.EF.Core
    - EntityFrameworkCore.Scaffolding.Handlebars
 
 5.  Add a `ScaffoldingDesignTimeServices` class that implements `IDesignTimeServices`
